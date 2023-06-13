@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Nonlinear classification with Support Vector Machines (SVM)
+Nonlinear classification with Support Vector Machines (SVM) approach
+with Polynomial Kernel (poly) transformation
 
 Created on Thu Jun  8 09:47:23 2023
 @author: SergKrasilnikov

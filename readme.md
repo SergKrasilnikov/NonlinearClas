@@ -18,9 +18,7 @@ data into a higher-dimensional feature space, allowing the SVM to separate non-l
 
     The polynomial kernel function is defined as:
 
-    $$
-    K(x, y) = (gamma * <x, y> + coef0)^{degree}
-    $$
+    $$K(x, y) = (gamma * <x, y> + coef0)^{degree}$$
 
     where
 
@@ -34,7 +32,7 @@ independent term in the polynomial kernel equation.
 
 
 
-    <image src="/data/output/images/SVM_rbf.png" width="300" alt="Polynomial Kernel (poly)">
+    <image src="/data/output/images/SVM_poly.png" width="400" alt="Polynomial Kernel (poly)">
 
 
 2. The 
@@ -45,18 +43,17 @@ points. The kernel function takes the form of a bell-shaped curve, resembling a 
 
     The Gaussian kernel is defined as:
 
-    $$
-    K(x, y) = exp(-gamma * ||x - y||^2)
-    $$
+    $$K(x, y) = exp(-gamma * ||x - y||^2)$$
 
     where
 
-    x and y are data points, $$||x - y||^2$$ represents the squared Euclidean distance between x and y, and gamma is a 
-parameter that determines the width of the Gaussian curve. A smaller gamma value leads to a wider curve and smoother 
-decision boundaries, while a larger gamma value results in a narrower curve and more localized decision boundaries.
+    ***x*** and ***y*** are data points, $$||x - y||^2$$ represents the squared Euclidean distance between x and y, 
+and ***gamma*** is a parameter that determines the width of the Gaussian curve. A smaller gamma value leads to a wider 
+curve and smoother decision boundaries, while a larger gamma value results in a narrower curve and more localized 
+decision boundaries.
 
     
-    <image src="/data/output/images/SVM_rbf.png" width="300" alt="Gaussian Kernel">
+    <image src="/data/output/images/SVM_rbf.png" width="400" alt="Gaussian Kernel">
 
 3. ***[Sigmoid Kernel](https://en.wikipedia.org/wiki/Sigmoid_function "sigmoid")***: maps the data to a 
 higher-dimensional space, creating an S-shaped decision boundary. The sigmoid kernel can be used in binary 
@@ -65,14 +62,12 @@ cases, the sigmoid kernel may be replaced by other kernels that are more effecti
 
     The Sigmoid Kernel is defined as:
 
-    $$
-    K(x, y) = tanh(gamma * dot_product(x, y) + coef0)
-    $$
+    $$K(x, y) = tanh(gamma * dot_product(x, y) + coef0)$$
 
     where
 
-    x and y are input data points, gamma is a parameter that controls the influence of the dot product term, and coef0 
-is an additional parameter that determines the offset of the kernel function.
+    ***x*** and ***y*** are input data points, ***gamma*** is a parameter that controls the influence of the dot 
+product term, and ***coef0*** is an additional parameter that determines the offset of the kernel function.
 
 ---
 ### Procassing

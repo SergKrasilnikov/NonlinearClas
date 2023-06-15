@@ -47,7 +47,7 @@ points. The kernel function takes the form of a bell-shaped curve, resembling a 
 
     where
 
-    ***x*** and ***y*** are data points, $$||x - y||^2$$ represents the squared Euclidean distance between x and y, 
+    ***x*** and ***y*** are data points, $||x - y||^2$ represents the squared Euclidean distance between x and y, 
 and ***gamma*** is a parameter that determines the width of the Gaussian curve. A smaller gamma value leads to a wider 
 curve and smoother decision boundaries, while a larger gamma value results in a narrower curve and more localized 
 decision boundaries.

@@ -34,11 +34,11 @@ independent term in the polynomial kernel equation.
 
     ***degree*** is the degree of the polynomial function. It determines the complexity of the decision boundary. Higher degrees allow the SVM to capture more complex patterns in the data.
 
-         <image
-         src="/data/output/images/SVM_poly.png"
-         alt="Текст с описанием картинки"
-         width="400" 
-         caption="Polynomial Kernel (poly) with degree=15">
+    <image
+        src="/data/output/images/SVM_poly.png"
+        alt="Текст с описанием картинки"
+        width="400" 
+        caption="Polynomial Kernel (poly) with degree=15">
 
 
 
@@ -59,11 +59,11 @@ and ***gamma*** is a parameter that determines the width of the Gaussian curve. 
 curve and smoother decision boundaries, while a larger gamma value results in a narrower curve and more localized 
 decision boundaries.
     
-         <image
-         src="/data/output/images/SVM_rbf.png"
-         alt="Gaussian Kernel"
-         width="400" 
-         caption="Gaussian Kernel">
+   <image
+       src="/data/output/images/SVM_rbf.png"
+       alt="Gaussian Kernel"
+       width="400" 
+       caption="Gaussian Kernel">
 
 
 3. ***[Sigmoid Kernel](https://en.wikipedia.org/wiki/Sigmoid_function "sigmoid")***: maps the data to a 

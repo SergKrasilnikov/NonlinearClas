@@ -92,4 +92,7 @@ or export as CSV.
 ---
 
 ### How to cite:
-The paper where these classifications were used now in press and will be published in 2023/begining of 2024.
+The paper where these classifications were used was published in the following journal:
+>Wu, B., Dong, J., Wang, Y., Rao, W., Sun, Z., Krasilnikov, S., Li, Z., Tan, Z., Chen, Z., Wang, C. and Ivanov, M., 2024.
+> A probable ancient nearshore zone in southern Utopia on Mars unveiled from observations at the Zhurong landing area. 
+> Scientific Reports, 14(1), p.24389.

@@ -84,15 +84,15 @@ plt.show()
 
 
 # EXPORT TO THE SHP
-Create a GeoDataFrame from the DataFrame
-gdf = gpd.GeoDataFrame(df_new, geometry=gpd.points_from_xy(df_new['x'], 
+# Create a GeoDataFrame from the DataFrame
+gdf = gpd.GeoDataFrame(df_new, geometry=gpd.points_from_xy(df_new['x'],
                                                             df_new['y']))
 # Define the projection
 crs = 'GCS_Mars_2000'
 # Save the GeoDataFrame as a shapefile
-gdf.to_file(os.path.join(os.getcwd(), 'data/output/', 'output.shp'), 
+gdf.to_file(os.path.join(os.getcwd(), 'data/output/', 'output.shp'),
             driver='ESRI Shapefile', crs=crs)
 
 # EXPORT DataFrame TO CSV
-#df_new.to_csv(os.path.join(os.getcwd(), 'data/output/', 'line.csv'), 
-#              index= True )
+df_new.to_csv(os.path.join(os.getcwd(), 'data/output/', 'line.csv'),
+             index= True )
